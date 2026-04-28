@@ -51,8 +51,15 @@ See `QUICKSTART.md` for IDE setup and detailed instructions.
 
 ---
 
-## Read Next
 
+### Full Diagram UML
+![FullUML](diagrams/FullUML.png)
+
+### Ссылка на код
+https://github.com/markhabaerzhan/homework-rpg-8.git
+
+## Read Next
+***
 - `ASSIGNMENT.md` — full requirements, pattern contracts, and grading rubric
 - `STUDENT_CHECKLIST.md` — phase-by-phase progress tracker
 - `FAQ.md` — answers to common questions about the patterns and implementation
