@@ -23,7 +23,6 @@ public class BattleFloor extends TowerFloor {
             if(!monster.isAlive()) break;
 
             h.startTurn();
-
             int dmg = h.attack();
             monster.takeDamage(dmg);
 
