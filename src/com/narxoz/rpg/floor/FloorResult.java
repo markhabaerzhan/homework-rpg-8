@@ -1,8 +1,5 @@
 package com.narxoz.rpg.floor;
 
-/**
- * Holds the outcome of exploring a single tower floor.
- */
 public class FloorResult {
 
     private final boolean cleared;
@@ -14,8 +11,13 @@ public class FloorResult {
         this.damageTaken = damageTaken;
         this.summary = summary;
     }
-
-    public boolean isCleared()      { return cleared; }
-    public int getDamageTaken()     { return damageTaken; }
-    public String getSummary()      { return summary; }
+    public boolean isCleared() {
+        return cleared;
+    }
+    public int getDamageTaken() {
+        return damageTaken;
+    }
+    public String getSummary() {
+        return summary;
+    }
 }
